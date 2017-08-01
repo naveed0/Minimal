@@ -1,0 +1,147 @@
+header{
+	margin-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	font-size: 21px;
+	color: #878787;
+}
+
+.color1{
+	color: #0481C2;
+}
+
+.color2{
+	color: #878787;
+}
+.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li > a:hover{
+	color: #0481C2;
+}
+
+.logo img{
+	min-height: 70px;
+}
+
+.navigation, .logo{
+	border-bottom: 5px solid #0481C2;
+}
+
+.logo{
+	padding-bottom: 30px;
+}
+
+.navigation{
+	padding-bottom: 36px;
+}
+
+.logo a{
+	display: inline-block;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+	border: none;
+	z-index: 1;
+}
+.row{
+	margin: 0px;
+}
+
+.middle{
+	margin-top: 30px;
+}
+
+aside h2{
+	border-bottom: 1px solid #878787;
+	padding-bottom: 10px;
+}
+
+.news-box{
+	border-bottom: 1px solid #878787;
+	padding: 20px 0px;
+}
+
+aside input{
+	width: 100%;
+	height: 30px;
+	background-image: url('../images/search.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 18px;
+	padding: 15px;
+	border:  1px solid #878787;
+	color: #0481C2;
+}
+
+.main-img img{
+	min-height: 300px;
+}
+.main-img{
+	position: relative;
+}
+
+.img-content{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 30%;
+	background-color: #91918D;
+	opacity: 0.8;
+	height: 100%;
+	padding: 10% 5%;
+	color: white;
+}
+
+.products{
+	margin-top: 30px;
+}
+
+.products p{
+	text-align: justify;
+}
+
+.product-box-1{
+	padding-left: 0px;
+
+}
+
+.product-box-3{
+	padding-right: 0px;
+}
+
+.product-box-2{
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+footer{
+  margin-top: 30px;
+}
+.footer-left, .footer-right{
+	border-top: 5px solid #0481C2;
+	padding-top: 20px;
+}
+.footer-left ul{
+	list-style-type: none;
+	padding:0px;
+}
+.footer-left ul li{
+	display: inline-block;
+}
+
+.footer-right p{
+	font-size: 17px;
+	float: right;
+}
+@media (max-width:768px) {
+	.img-content{
+		width: 100%;
+		height: auto;
+		height: 300px;
+	}
+	.product-box-1, .product-box-2, .product-box-3{
+		width: 60%;
+		margin:auto 20%;
+		padding:0px;
+	}
+}
